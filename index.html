@@ -1,38 +1,43 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>To-Do App</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <div class="container">
-        <header>
-            <h1>My To-Do List</h1>
-        </header>
-        
-        <div class="todo-input">
-            <input type="text" id="todoInput" placeholder="Add a new task..." maxlength="100">
-            <button id="addBtn">Add Task</button>
-        </div>
-        
-        <div class="filter-buttons">
-            <button class="filter-btn active" data-filter="all">All</button>
-            <button class="filter-btn" data-filter="pending">Pending</button>
-            <button class="filter-btn" data-filter="completed">Completed</button>
-        </div>
-        
-        <ul class="todo-list" id="todoList">
-            <!-- Todo items will be dynamically added here -->
-        </ul>
-        
-        <div class="todo-footer">
-            <span class="pending-count">0 tasks remaining</span>
-            <button id="clearCompleted">Clear Completed</button>
-        </div>
+      <header>
+        <h1>My To-Do List</h1>
+      </header>
+
+      <div class="todo-input">
+        <input
+          type="text"
+          id="todoInput"
+          placeholder="Add a new task..."
+          maxlength="100"
+        />
+        <button id="addBtn">Add Task</button>
+      </div>
+
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="pending">Pending</button>
+        <button class="filter-btn" data-filter="completed">Completed</button>
+      </div>
+
+      <ul class="todo-list" id="todoList">
+        <!-- Todo items will be dynamically added here -->
+      </ul>
+
+      <div class="todo-footer">
+        <span class="pending-count">0 tasks remaining</span>
+        <button id="clearCompleted">Clear Completed</button>
+      </div>
     </div>
-    
-    <script src="script.js"></script>
-</body>
+
+    <script src="main.js"></script>
+  </body>
 </html>

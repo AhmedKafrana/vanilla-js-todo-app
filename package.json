@@ -1,0 +1,24 @@
+{
+  "name": "testtest",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A beautiful, modern to-do application built with vanilla HTML, CSS, and JavaScript. Features a clean, responsive design with smooth animations and persistent storage.",
+  "main": "main.js",
+  "scripts": {
+    "lint": "eslint main.js",
+    "lint:fix": "eslint main.js --fix",
+    "format": "prettier --write main.js index.html styles.css",
+    "format:check": "prettier --check main.js index.html styles.css",
+    "dev": "python -m http.server 8000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^9.31.0",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-prettier": "^5.5.1",
+    "prettier": "^3.6.2"
+  }
+}
