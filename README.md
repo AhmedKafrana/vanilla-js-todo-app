@@ -204,6 +204,6 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-**🚀 Live Demo**: [GitHub Pages](https://yourusername.github.io/TestTest)
+**🚀 Live Demo**: [GitHub Pages](https://ahmedkafrana.github.io/vanilla-js-todo-app/)
 
 *Remember to update the GitHub Pages URL with your actual username and repository name for the live demo link.*
