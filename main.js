@@ -208,14 +208,14 @@ function handleFilterClick(filter) {
   // Filter and render tasks based on selection
   let filteredTasks = tasks;
   switch (filter) {
-  case 'pending':
-    filteredTasks = tasks.filter(task => !task.completed);
-    break;
-  case 'completed':
-    filteredTasks = tasks.filter(task => task.completed);
-    break;
-  default:
-    filteredTasks = tasks;
+    case 'pending':
+      filteredTasks = tasks.filter(task => !task.completed);
+      break;
+    case 'completed':
+      filteredTasks = tasks.filter(task => task.completed);
+      break;
+    default:
+      filteredTasks = tasks;
   }
 
   renderFilteredTasks(filteredTasks);

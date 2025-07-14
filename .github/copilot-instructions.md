@@ -3,6 +3,7 @@
 # To-Do App Development Guidelines
 
 This is a vanilla JavaScript to-do application with the following structure:
+
 - `index.html` - Main HTML structure
 - `style.css` - CSS styling with modern design
 - `script.js` - JavaScript functionality using ES6+ features
@@ -10,6 +11,7 @@ This is a vanilla JavaScript to-do application with the following structure:
 ## Code Style Guidelines
 
 ### JavaScript
+
 - Use ES6+ features (classes, arrow functions, const/let)
 - Implement proper error handling
 - Use localStorage for data persistence
@@ -18,6 +20,7 @@ This is a vanilla JavaScript to-do application with the following structure:
 - Implement proper HTML escaping for security
 
 ### CSS
+
 - Use modern CSS features (flexbox, grid, custom properties)
 - Implement responsive design principles
 - Use CSS transitions and animations for better UX
@@ -25,12 +28,14 @@ This is a vanilla JavaScript to-do application with the following structure:
 - Use semantic color schemes
 
 ### HTML
+
 - Use semantic HTML elements
 - Ensure proper accessibility attributes
 - Maintain clean, readable structure
 - Include proper meta tags
 
 ## Features to Maintain
+
 - Add/delete/toggle tasks
 - Filter tasks (all, pending, completed)
 - Persistent storage using localStorage
@@ -41,6 +46,7 @@ This is a vanilla JavaScript to-do application with the following structure:
 - Clear completed functionality
 
 ## When Adding New Features
+
 - Maintain the existing class-based architecture
 - Add proper error handling
 - Update localStorage structure if needed
